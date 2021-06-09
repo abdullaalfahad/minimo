@@ -1,0 +1,255 @@
+/*Fonts Start*/
+@font-face{
+	src: url(../fonts/playfair-display/PlayfairDisplay-Black.otf);
+	font-family: PlayfairDisplay-Black;
+}
+@font-face{
+	src: url(../fonts/playfair-display/PlayfairDisplay-Bold.otf);
+	font-family: PlayfairDisplay-Bold;
+}
+@font-face{
+	src: url(../fonts/playfair-display/PlayfairDisplay-Italic.otf);
+	font-family: PlayfairDisplay-Italic;
+}
+@font-face{
+	src: url(../fonts/playfair-display/PlayfairDisplay-Regular.otf);
+	font-family: PlayfairDisplay-Regular;
+}
+@font-face{
+	src: url(../fonts/ubuntu/Ubuntu-L.ttf);
+	font-family: Ubuntu-L;
+}
+@font-face{
+	src: url(../fonts/Inconsolata/Inconsolata.otf);
+	font-family: Inconsolata;
+}
+/*Fonts End*/
+
+/*Common Start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262; 
+}
+ /*Common End*/
+
+/*Header Start*/
+header{
+	padding: 25px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+	margin-top: 8px;
+	width: 14%;
+	float: left;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style-type: none;
+	float: left;
+}
+.menu ul li a{
+	padding: 0 50px;
+	display: inline-block;
+	text-decoration: none;
+	color: #626262;
+}
+.menu ul li:last-child a{
+	padding-right: 0px;
+}
+/*Header End*/
+
+/*Banner Start*/
+.banner{}
+.banner_content{}
+.banner_content img{
+	width: 100%;
+}
+/*Banner End*/
+
+/*Getaway Start*/
+.getaway{}
+.container2{
+	margin: 0 auto;
+	width: 80%;	
+}
+.getaway_content{
+	padding: 80px 0 100px;
+}
+.c_light{
+	margin: 0;
+	font-family: Ubuntu-L;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.c_title{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_para{
+	margin: 0 0 50px;
+	line-height: 25px;
+}
+/*Getaway End*/
+
+/*Blog Start*/
+.blog{
+	padding: 100px 0;
+}
+.blog_content{
+	overflow: hidden;
+}
+.single{
+	margin-bottom: 20px;
+	width: 47%;
+	float: left;
+}
+.single:nth-child(even){
+	margin-left: 6%;
+}
+.s_img{
+	margin-bottom: 20px;
+	width: 100%;
+}
+/*Blog End*/
+
+/*Newsletter Start*/
+.newsletter{
+	background-color: #f0f0f0;
+	padding: 75px 0;
+}
+.newsletter_content{
+	text-align: center;
+}
+.title2{
+	margin: 0 0 70px;
+	color: #333333;
+}
+.n_form{
+	margin: 0 auto;
+	width: 400px;
+	position: relative;
+}
+.n_form input{
+	padding: 0 45px 0 5px;
+	width: 350px;
+	height: 40px;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #626262;
+}
+.n_form input:focus{
+	outline: 0;
+}
+.n_form button{
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 12px;
+	right: 0;
+}
+.n_form button:focus{
+	outline: 0;
+}
+
+/*Newsletter End*/
+
+/*Blog2 Start*/
+.load{
+	margin: 80px 0;
+	text-align: center;
+}
+.load button{
+	width: 165px;
+	height: 60px;
+	font-family: PlayfairDisplay-Regular;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    border: 1px solid #626262;
+	background-color: transparent;
+}
+.load button:hover{
+	background-color: #626262;
+	color: white;
+}
+/*Blog2 End*/
+
+/*Footer Start*/
+footer{
+	padding: 30px 0;
+	background-color: #f0f0f0;
+}
+.f_left{
+	width: 22%;
+	float: left;
+}
+.f_left ul{
+	padding-left: 0;
+	float: left;
+}
+.f_left ul li{
+	list-style-type: none;
+	float: left;
+}
+.f_left ul li a{
+	padding: 0 10px;
+	display: inline-block;
+	font-size: 14px;
+    color: #000000;
+	text-decoration: none;    
+}
+.f_left ul li:first-child a{
+	padding-left: 0;
+}
+.f_right{
+	width: 16%;
+	float: right;
+}
+.f_right ul{
+	float: right;
+}
+.f_right ul li{
+	list-style-type: none;
+	float: left;
+}
+.f_right ul li a{
+	padding: 0 10px;
+	display: inline-block;
+	text-decoration: none;
+}
+.f_right ul li:first-child{
+	padding-right: 20px;
+	font-size: 14px;
+    color: black;
+}
+.f_right ul li:last-child a{
+	padding-right: 0;
+}
+/*Footer End*/
